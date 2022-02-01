@@ -5,7 +5,7 @@ RegisterCommand('record', function()
 end)
 
 RegisterNetEvent('notw4018:recordmenu', function()
-  TriggerEvent('nh-context:sendMenu', {
+  exports['qb-menu']:openMenu({
       {
           id = 1,
           header = "Recording Menu ♕",
